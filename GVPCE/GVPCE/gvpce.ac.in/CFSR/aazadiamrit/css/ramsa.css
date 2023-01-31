@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&amp;family=Cookie&amp;family=Montserrat:wght@500&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&amp;family=Cookie&amp;family=Mate+SC&amp;family=Montserrat:wght@500&amp;display=swap');
+
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.sticky-top{
+    top: 0;
+}
+
+.organized{
+    //padding: 20px 0;
+    
+   padding: 50px 0;
+   background-image: linear-gradient(rgba(26,88,203,0.5), rgba(7,198,237,0.5)),linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../images/GVPClg.html");
+   -webkit-background-size:cover;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    background-attachment: scroll; 
+    //height: 100vh;
+    //opacity: 0.7;
+   
+  
+
+
+}
+
+.lastdate {
+   // width: 80px;
+    font-size:15px;
+    font-weight:bold;
+    
+}
+
+
+.news-scroll a {
+    text-decoration: none;
+    font-size:20px;
+    color:indigo;
+    font-weight:bold;
+    text-align:center;
+    align:center;
+    width:80%
+}
+
+
+/*.organized::before {    
+      content: "";
+      background-image: url('../images/GVPClg.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+*/
+
+.organized img{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.organized .img-area img{
+    max-height: 250px;
+}
+
+.organized-heading{
+    padding: 30px;
+   //color: #055fad;
+    color:white;
+   
+
+}
+
+.organized-heading h3
+{
+ color:white;
+}
+
+.lec{
+    padding: 40px 0;
+}
+
+.mem-lec{
+     padding: 20px 0;
+    //background-color: #f9f6e9;
+    //background-color: #B19CD9;
+      background-color: #CBC3E3;
+   
+}
+
+.mem-lec .organized-heading{
+    padding: 30px;
+    color: #420b5a;
+}
+
+.memlec-info{
+    padding: 40px 0;
+    margin: 0 20px;
+}
+
+.memlec-team{
+    background-color: #055fad;
+    margin-bottom: 10px;
+    //height:400px;
+    width:auto;
+}
+
+.mem-lec .memlec-team{
+   background-color: #420b5a;
+    margin-bottom: 10px;
+    //height:410px;
+    width:auto;
+}
+
+
+.mem-lec .memlec-team1{
+   background-color: #420b5a;
+    margin-bottom: 10px;
+    //height:360px;
+     width:auto;
+
+}
+
+.mem-lec .memlec-team3{
+   background-color: #420b5a;
+    margin-bottom: 10px;
+    //height:375px;
+     width:auto;
+
+}
+
+.mem-lec .memlec-team5{
+   background-color: #420b5a;
+    margin-bottom: 10px;
+   // height:370px;
+     width:auto;
+
+}
+
+
+
+.img-area{
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.img-area img{
+    width: 200px;
+    height: 200px;
+   // object-fit: cover;
+    vertical-align: top;
+   // align:text-center;
+}
+
+.mem-lec .img-area img{
+    max-height: 250px;
+}
+
+.img-area img{
+    transition: all 0.4s ease 0s;
+}
+
+.img-text{
+    padding: 10px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of to 20px */
+
+@media screen and (min-width: 601px) {
+ .img-text h4 {
+    font-size: 18px;
+     font-weight:bold;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-text h4 {
+    font-size: 14px;
+     //font-weight:bold;
+  }
+}
+
+@media screen and (min-width: 601px) {
+ .img-text h5,.img-text h6 {
+    font-size: 14px;
+     font-weight:bold;
+  }
+}
+/* If the screen size is 600px wide or less, set the font-size  to 13px */
+@media screen and (max-width: 600px) {
+  .img-text h5,.img-text h6 {
+    font-size: 14px;
+    // font-weight:bold;
+  }
+}
+
+.about-ramsa{
+    /*color: #fff;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgba(0,212,255,1) 100%); */
+    //background: linear-gradient(to bottom, #0066ff 0%, #cc66ff 100%);
+   // background: linear-gradient(to bottom, #666699 0%, #666699 100%);
+   // margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.about-ramsa-heading{
+    padding: 10px;
+    font-weight: 400;
+    color: #055fad;
+}
+
+.about-ramsa-info h2{
+    padding: 20px 0;
+    color: #000;
+}
+
+.about-ramsa-info .sub-section{
+    padding: 40px 0;
+}
+
+.about-ramsa-info .ramsa-india{
+    padding: 40px 0;
+}
+
+.about-ramsa-heading .underline{
+    background-color: #000;
+    border: 2px solid #000;
+    margin-top: -5px;
+}
+
+.about-ramsa-info .underline{
+    background-color: #055fad;
+    border: 1px solid #055fad;
+    margin-top: -18px;
+}
+
+.about-ramsa-info p{
+    padding-bottom: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about-ramsa-info .btn{
+    color: #fff;
+    background-color: #055fad;
+    font-family: 'Oswald';
+}
+
+.about-ramsa-info .btn:hover{
+    color: #055fad;
+    background-color: #fff;
+    border: 2px solid #000;
+    overflow: hidden;
+    margin-bottom: -2px;
+}
+
+.objective{
+    padding: 20px 0;
+    background-color: #ebfcdc;
+}
+
+.objective .obj-heading{
+    padding: 30px;
+    color: #5a9541;
+}
+
+.special
+{
+  text-align:justify;
+  font-weight:300;
+  color:black;
+  
+}
+
+
+.patron{
+    //background-color: white;
+    background-color: #138808;
+    color: #fff;
+}
+
+.patron a{
+    color: #ffffff;
+}
+
+.patron-heading{
+    padding: 20px;
+    color: #000080;
+}
+
+.patron-heading .underline{
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin-top: -5px;
+}
+
+.orgcomm{
+
+   // background : #646c73;
+    background : #D4AF37;
+
+    padding: 60px 0;
+    position: relative;
+}
+
+.orgcomm-heading{
+    color: #000;
+    padding-bottom: 50px;
+}
+
+.orgcomm-heading .underline{
+    background-color: #055fad;
+    border: 2px solid #055fad;
+    margin-top: -5px;
+}
+
+.coord{
+    
+    padding: 20px 0;
+    
+}
+
+.coord-heading{
+    padding: 30px;
+    color: #055fad;
+}
+
+.thrust{
+    padding: 20px 0;
+    background-color: #ebfcdc;
+}
+
+.thrust .thrust-heading{
+    padding: 30px;
+    color: #5a9541;
+}
+
+.MiniSymp{
+    padding: 20px 0;
+    background-color: #EE5900;
+      
+}
+
+.MiniSymp-heading{
+   padding: 20px;
+    color: #fff;
+}
+
+.MiniSymp h4{
+    text-align:justify;
+    line-height:40px;
+}
+
+.MiniSymp ol li{
+    font-size:23px;
+}
+
+.news
+{
+
+  padding: 20px 0;
+
+  background-color: #000080;
+  color:white; 
+
+}
+
+
+.news-heading{
+   padding: 20px;
+    color: #fff;
+    text-align:center;
+}
+
+.copyrights
+{
+  padding: 2px 0;
+  background-color: gray;
+  color:white; 
+}
+
+.copyrights p
+{
+  font-size:12px;
+}
+
+.proceedings{
+    padding: 20px 0;
+    background-color: #f9f6e9;
+}
+
+.contact{
+    background-color: #055fad;
+    color: #ffffff;
+}
+
+.contact-heading{
+    padding: 30px;
+    color: #fff;
+}
+
+.contact-heading .underline{
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin-top: -5px;
+}
+
+
+.contact-mode .underline{
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-top: -5px;
+   
+}
+
+.footer-info{
+    padding: 40px 0;
+    margin: 0 40px;
+}
+
+.footer-info .underline{
+    background-color: #fff;
+}
+
+.footer-info .contact-mode{
+    padding: 20px 0;
+}
+
+.contact a{
+    color: #ffffff;
+}
+
+
+ @media (max-width: 992px) {
+  .offcanvas-header{ display:block; }
+  .navbar-collapse {
+    position: fixed;
+    top:0; 
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #055fad;
+    transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  }
+  .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+} 
+
+@media (max-width: 1080px){
+    .sb-navbar .navbar-brand img{
+        height: 3rem;
+        width: 6.75rem;
+    }
+}
+
+@media (max-width: 768px){
+    .img-area img{
+        display: inline-block;
+    }
+}
+
+
+.navbar-dark .navbar-nav>li>a{
+	font-size:19px;
+}
+
+
+
+.navbar-dark .navbar-nav>li>a:hover{
+	color: rgb(247, 72, 25);
+	background-color:white;
+	font-weight:600;
+}
+
+.offcanvas-header{ display:none; }
+
+ @media (max-width: 992px) {
+  .offcanvas-header{ display:block; }
+  .navbar-collapse {
+    position: fixed;
+    top:0; 
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #055fad;
+    transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  } 
+  
+  
+  /* If the screen size is 601px wide or more, set the font-size of to 20px */
+@media screen and (min-width: 601px) {
+ .text-responsive {
+    font-size: 20px;
+    font-weight:bold;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size  to 13px */
+@media screen and (max-width: 600px) {
+  .text-responsive {
+    font-size: 13px;
+     font-weight:bold;
+  }
+}

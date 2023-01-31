@@ -1,0 +1,276 @@
+* {
+	/* With these codes padding and border does not increase it's width and gives intuitive style.*/
+
+-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+header{
+background-color: #4A789C;
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+margin-top: -11px;
+margin-bottom: -8px;
+border-radius: 10px 10px 0 0;
+color: #EEE;
+}
+txt{
+background-color: #4A789C;
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+margin-top: -11px;
+margin-bottom: -8px;
+border-radius: 10px 10px 0 0;
+color: #4180C5;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color:#000;
+	font-family: Arial;
+	font-size: 12px;
+}
+.number {
+  background: #1abc9c;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 15px 15px 15px 0px;
+}
+div#layer_2{
+	margin: 20px;
+	width:85%;
+}
+div#personal_info{
+	width:95%;
+	float:left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	clear: none;
+}
+div#personal_information{
+	width:40%;
+	float:left;
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	margin-left: 6%;
+}
+div#personal_info1{
+	width:40%;
+	float:left;
+	margin-top: 60px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+div#jee{
+	float:left;
+	clear: right;
+	width: 40%;
+	margin-top: 17px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+}
+div#admission_details{
+	width:45%;
+	float:left;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	margin-left: 5%;
+}
+div#address{
+	width: 40%;
+	float:left;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 60px;
+}
+div#permanent_address{
+	width: 95%;
+	float:left;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+div#correspond_address{
+	width:95%;
+	float:left;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 22px;
+}
+div#academic_perfo{
+	width:90%;
+	float:left;
+	clear: right;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	width: 95%;
+}
+div#class10{
+	width:100%;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+
+}
+div#class12{
+	width: 90%;
+	float:left;
+	margin: 10px;
+}
+div#bank_details{
+	width: 44%;
+	float:left;
+	clear: none;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
+form{
+	width:95%;
+	margin: 3%;
+}
+
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input[type=text]{
+	width:15%;
+	border-radius:5px;
+	border:1px solid #7ac9b7;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 8px;
+}
+input[type=password]{
+	width:50%;
+	border-radius:5px;
+	border:1px solid #7ac9b7;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 8px;
+}
+input[type=submit]
+{
+	margin-bottom: 20px;
+	width:10%;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #7ac9b7;
+	background-color: #4180C5;
+	color: aliceblue;
+	font-size:15px;
+	cursor:pointer;
+	margin-left: 0%;
+}
+input[type=reset]
+{
+	margin-bottom: 20px;
+	width:10%;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #7ac9b7;
+	background-color: #4180C5;
+	color: aliceblue;
+	font-size:15px;
+	cursor:pointer;
+	margin-left: 0%;
+}
+.reset {
+    margin-bottom: 20px;
+	width:20%;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #7ac9b7;
+	background-color: #4180C5;
+	color: aliceblue;
+	font-size:15px;
+	cursor:pointer;
+	margin-left: 0%;
+}
+#submit:hover
+{
+background-color:#096;
+}
+textarea{
+	width:95%;
+	margin-top: 10px;
+	border:1px solid #7ac9b7;
+	border-radius:5px;
+	margin-bottom: 20px;
+	resize:none;
+	height: auto;
+	padding-bottom: 50px;
+}
+input[type=text]:focus,textarea:focus {
+border-color: #03F;
+}
+select{
+	margin-bottom: 10px;
+	margin-top: 4px;
+	width:4%;
+	padding: 5px;
+	border-radius:5px;
+	border:1px solid #7ac9b7;
+}
+input[type=radio] {
+margin-bottom: 20px;
+margin-top: 10px;
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+}
+legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+#wrap {
+	border: 2px solid gray;
+	border-radius:10px;
+	margin: 10px;
+	clear: left;
+}
+input[type=file]{
+	border-radius:5px;
+	border:1px solid #7ac9b7;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding: 8px;
+}
+input[type=button] {
+	margin-bottom: 20px;
+	margin-top: 8px;
+	width:150px;
+	padding: 10px;
+	border-radius:0px;
+	border:1px solid #4180C5;
+	background-color: #4180C5;
+	color: aliceblue;
+	cursor:pointer;
+}
+#academic_style{
+	width:200px;
+	margin-right:20px
+}

@@ -1,0 +1,107 @@
+﻿body {
+}
+
+.btnGoBack
+{
+    border-style:none;
+    border-radius:5px;
+    width:3%;
+    margin-right:10px;
+    color:#333333;
+    font-family:Arial;
+    
+    background-color:#d7dcde;
+    background-image:url('../img/list-option-icons/left-arrow.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    
+    font-size:12px;
+    padding-top:2px;
+    
+}
+
+.btnMarkAsRead1
+{
+    background-color:#d7dcde;
+    background-image:url('../img/list-option-icons/status.png');
+    background-position:8% center;
+    background-repeat: no-repeat;
+
+    width:16%;
+    height:32px;
+    
+    margin-right:10px;
+    border-style:none;
+    border-radius:5px;
+}
+.div_01
+{
+    height:70px;
+    background-color:#f1f2f4;
+    background-image:url('../img/list-option-icons/messages.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    border-top:1px solid #dadada;
+    border-bottom:1px solid #dadada;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.mailsImage1
+{
+    image-orientation:auto;
+   
+}
+
+.messageHeader
+{
+    font:bold;
+    text-align:center;
+    
+}
+.attachmentsText
+{
+    height:90px;
+    background-color:#f1f2f4;
+   
+    border-bottom:1px solid #dadada;
+    padding-bottom:7px;
+}
+.div_04
+{
+    display:block;
+    float:left;
+    background-color:#ffffff;
+    width:100%;
+    margin-top:10px;
+    padding-left:5px;
+}
+
+#messageSenderLabel
+{
+    font:bold;
+    text-align:left;
+    color:#0055ff;
+}
+.messageDescription
+{
+    display : block;
+    float:left;
+    width : 600px;
+    margin-top:10px;
+    padding-left:5px;
+   
+}
+
+.div_05
+{
+    height:110px;
+    background-color:#f1f2f4;
+    background-image:url('../img/list-option-icons/messages.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    border-top:1px solid #dadada;
+    border-bottom:1px solid #dadada;
+    padding-top:10px;
+    padding-left:10px;
+}

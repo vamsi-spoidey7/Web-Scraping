@@ -1,0 +1,168 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+.checkbox-error {
+    color: #fe5454 !important;
+}
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.left-logo a img{width:100%}
+
+.loader {position: fixed;width: 100%;height: 100%;left: 0;top: 0;background:rgba(255,255,255,0.7);z-index: 99999;display: table;vertical-align: middle;}
+.loader .loader-img {display: table-cell;height: 100%;vertical-align: middle;text-align: center;}
+.person-detail-box > div{margin: 10px 0;}
+.header .left-logo img{width:auto;}
+.div_term_conditions{padding-right:30px;}
+.div_term_conditions table th,td{padding: 3px !important;}
+.address-data{padding-top: 10px;}
+.form-top-banner img{max-width:100%}
+.form-top-banner{padding: 15px 15px 10px 15px;}
+.btn.btn-ccavenue:hover,.btn.btn-ccavenue:focus,.btn.btn-ccavenue:active{color: #fff;}
+.btn-ccavenue{
+    color: #fff;
+    background-color:#f28534;
+    border-color:#2e6da4;
+}
+.form-control[readonly], fieldset[disabled] .form-control{pointer-events:none;}
+input[type="radio"][readonly], 
+input[type="checkbox"][readonly], 
+input[type="radio"].readonly, 
+input[type="checkbox"].readonly, 
+fieldset[readonly] input[type="radio"], 
+fieldset[readonly] input[type="checkbox"]{
+    cursor:not-allowed;
+}
+.input-detail .readonly{pointer-events: none}
+.form-group label.required:after,.person-detail-box label.required:after {content:" *";color: red;}
+#sample-checkbox-01-error,.person-detail .input-detail .label_check:last-child label.error{display:inline-block !important;color: #fe5454;}
+.form-top-banner{padding: 15px 15px 10px 15px;}
+.informaton-slide label.error{display: none !important;}
+#change_password label.error{color: #fe5454;}
+.informaton-slide .form-control.error,
+#change_password .form-control.error
+{border-color: #fe5454 !important;}
+.right-form-detail .person-detail-box .input-detail.error {border-color: #fe5454;}
+.right-form-detail .person-detail-box input[type="date"].form-control{line-height: 23px !important;}
+.setting_menu{position: absolute;top: 0;width: 50px;right: 10px;}
+.invoice_btn{margin-left: 460px;}
+.left-logo .img-thumbnail {border: none;}
+@media (max-width: 767px){
+    .detailed-form .left-logo a {max-width: 200px;display: block;margin: 0 auto;width: 50%;}
+    .invoice_btn{margin-right: 460px !important;}
+    .payment-history{width: 100%;overflow: auto;}
+    .payment-history .table {min-width: 600px;}
+}

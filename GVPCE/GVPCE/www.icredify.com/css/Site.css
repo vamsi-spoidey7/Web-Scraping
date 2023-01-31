@@ -1,0 +1,371 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.editButtonDegrees {
+    height: 90%;
+    width: auto;
+}
+
+.bulleted {
+    display: list-item;
+    color: #428bca;
+}
+
+.coloured {
+    background-color: #e9e8e6;
+}
+
+.editText {
+    margin-left: 10px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+
+#logo {
+    margin-left: 10px;
+    vertical-align: baseline;
+}
+
+#header {
+    width: 97.5%;
+    min-height: 68px;
+    border: 1px solid #f1f1f1;
+    padding-top: 0px;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-color: #ffffff;
+    margin-left: 14px;
+}
+
+#accordion, #accordion tr {
+    font-size: 13pt;
+    font-family: Arial;
+}
+
+span {
+    visibility: visible;
+}
+
+#accordion a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.username_input select {
+    width: 150px;
+    height: 30px;
+    text-align: left;
+    line-height: 1.5;
+    color: #808080;
+}
+
+.username_input {
+    float: left;
+}
+
+div.username_logout button {
+    width: 70px;
+}
+
+#accordion a {
+    line-height: 1.8;
+}
+
+#accordion img.request_icon {
+    height: auto;
+    width: auto;
+    margin-left: 30px;
+    padding: 0;
+}
+
+#accordion img {
+    height: 18px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.leftList a {
+    display: block;
+    height: 50px;
+    padding: 15px 0 0 20px;
+    margin: 0 !important;
+    color: #333333;
+    border-top: 1px solid #DADADA;
+    text-decoration: none;
+    border: 0px;
+    outline: none;
+}
+
+    .leftList a img {
+        margin-right: 10px;
+        height: 17px;
+        width: auto;
+    }
+
+.leftList li {
+    list-style: none;
+}
+
+.leftList a:hover {
+    background-color: #e9e8e6;
+    border-right: 2px solid #f3c304;
+    text-decoration: none;
+}
+
+.current-menu-item {
+    background-color: #e9e8e6;
+    border-right: 2px solid #f3c304 !important;
+}
+
+
+#accordion.items {
+    float: left;
+    color: white;
+    left: 140px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+}
+
+
+#login_pane {
+    margin-top: 25px;
+    top: 0px;
+    left: 0px;
+}
+
+.username_input, .username_logout {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dashboard {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.dashboardContainer {
+    padding: 10px;
+}
+
+.dashboardHeader {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.dashboardBoxes {
+    padding-right: 0px;
+    height: 150px;
+}
+
+.customLabel {
+    background-color: purple;
+}
+
+.dashboardBoxes div {
+    color: #FFFFFF;
+    height: 60px;
+    margin: 5px;
+    padding: 10px 5px 10px 10px;
+}
+
+.dashboardBoxes p {
+    padding: 0 0 0 5px;
+}
+
+.boxTitle {
+    font-size: smaller;
+    padding: 0;
+    display: block;
+}
+
+.boxNumber {
+    font-size: large;
+    padding: 0;
+}
+
+.dashboardLeft {
+    padding: 0px;
+}
+
+.dashboardRight {
+    margin-left: -10%;
+    padding: 0;
+    width: 40%;
+}
+
+#viewAll {
+    float: right;
+    font: small;
+}
+
+.dashboardProgressBar {
+    background-color: #2dcc70;
+}
+
+.recentHead {
+    background-color: #96A4A5;
+    height: 30px;
+    margin-left: 20px;
+    padding: 5px 15px 5px 15px;
+    width: 77%;
+    color: white;
+}
+
+.instituteProfileHead {
+    margin: 0;
+    width: 100%;
+}
+
+.instituteProfileContent {
+    margin-bottom: 20px !important;
+    padding: 0px;
+    color: black;
+    height: 170px !important;
+}
+
+.quickLinksHead {
+    margin: 0;
+    width: 100%;
+}
+
+.quickLinksContent {
+    height: 140px !important;
+    padding: 10px !important;
+}
+
+    .quickLinksContent ul {
+        color: #428BCA;
+        padding-left: 20px;
+    }
+
+    .quickLinksContent li a {
+        font-size: small;
+    }
+
+.recentContent {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    height: 208px;
+    margin-bottom: 100px;
+    color: black;
+    padding: 0;
+}
+
+.rightContent {
+    border-left: 1px solid #e0e0e0;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 500px;
+}
+
+#first_row {
+    border-top: 0px;
+}
+
+
+.dropdownButtons span.caret {
+    margin-left: 10px;
+}
+
+.dropdownButtons {
+    background-color: white !important;
+    margin-right: 10px;
+    height: 48px;
+}
+
+.tableDropdown {
+    margin-left: -50px;
+    min-width: 60px;
+    text-align: left;
+    outline: none;
+}
+
+.userTable .tableDropdown {
+    margin-left: 10px;
+    min-width: 60px;
+    text-align: left;
+    outline: none;
+}
+
+.tableDropdown img {
+    margin-right: 10px;
+}
+
+button.tableDropdownButton {
+    background-image: url("../img/list-option-icons/arrow2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 22px;
+    width: 22px;
+    outline: medium none;
+}
+
+.adjustment {
+    padding-right: 0px;
+}
+
+.instituteImage {
+    padding: 0px;
+}
+
+.instituteDetails {
+    padding: 5px 12px 5px 5px;
+    border-left: 1px solid #E0E0E0;
+}
+
+.instituteAddress {
+    color: #96a4a5;
+    padding: 0px;
+    height: 80px;
+}
+
+.instituteHead {
+    color: black;
+    padding: 0px;
+}
+
+.instituteFooter {
+    padding-left: 0px;
+}
+
+#MainContent_imgInstitute {
+    height: auto;
+    width: 170px;
+}
+
+#MainContent_instituteImage {
+    height: auto;
+    width: 190px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}

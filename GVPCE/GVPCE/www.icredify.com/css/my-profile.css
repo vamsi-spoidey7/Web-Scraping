@@ -1,0 +1,119 @@
+﻿.update
+{
+    padding-left:0em;
+    padding-top:2em;
+}
+
+.rowsArrange
+{
+    padding-top:1em;
+}
+
+/*.columnsArrange
+{
+    float:left;
+    clear:both;
+}*/
+
+.profilePic1
+{
+   
+    background-color:#f1f2f4;
+    background-image:url('../img/list-option-icons/profile.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    border-top:1px solid #dadada;
+    border-bottom:1px solid #dadada;
+    padding-top:10px;
+   
+}
+
+/*.personalInformation
+{
+    height:500px;
+    background-color:#f1f2f4;
+   border-top:1px solid #dadada;
+    border-bottom:1px solid #dadada;
+    padding-left:2em;
+    float:left;
+    clear:both;
+    visibility:visible;
+}*/
+
+
+
+.major
+{
+  min-height:250px;
+   clear:both; 
+}
+
+.picture
+{
+    width:125px;
+   min-height:750px;
+    float:left;
+    background-color:white;
+    
+}
+
+.rest
+{
+    width:775px;
+    
+    float:right;
+    background-color:white;
+     
+}
+
+.left
+{
+    width:320px;
+    
+    float:left;
+    background-color:white;
+    
+   
+}
+
+.right
+{
+    width:340px;
+    padding-top:3em;
+    float:right;
+    background-color:white;
+   
+    
+}
+
+.right1
+{
+    width:340px;
+    
+    float:right;
+    background-color:white;
+   
+    
+}
+
+.overall
+{
+    padding-top:2em;
+    width:900px;
+    height:100%;
+    background-color:white;
+}
+
+.picture1
+{
+    padding-left:1em;
+    
+    height:150px;
+}
+
+#uploadPic
+{
+    height:150px;
+    width:125px;
+    border-style:dashed;
+}

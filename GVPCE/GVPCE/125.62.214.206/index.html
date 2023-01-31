@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+
+<!-- Mirrored from 125.62.214.206/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Nov 2022 13:28:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+   <title>SIGN IN</title>
+  
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+<link rel='stylesheet prefetch' href='css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/styletest.css">
+
+  
+  
+  
+ 
+<!--<link  rel="stylesheet" media="screen and (max-width: 1400px) and (min-width: 769px)" href="css/new.css" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width: 1200px) and (min-width: 601px)" href="css/tablet.css" />
+<link rel="stylesheet" media="screen and (max-width: 767px) and (min-width: 360px)" href="css/mobile.css" />
+<link  rel="stylesheet"  href="css/bootstrap.css" type="text/css" />
+<link rel="shortcut icon" href="../project/fevicon1.png" type="image/x-icon" />
+<link href="fonts/Bungee-Regular.ttf" rel="stylesheet">
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/balloon.css" />    -->
+
+        
+
+    
+        
+
+            <script src="../code.jquery.com/jquery-1.10.2.js"></script>
+            <script src="../code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+            <script src="../jqueryjs.googlecode.com/files/jquery-1.2.6.min.html" type="text/javascript"></script>
+
+            <link rel="shortcut icon" href="img/fevicon1.png" type="image/x-icon" />
+                <script src="js/respond.js"></script>
+                <script src="js/jquery.balloon.js" type="text/javascript"></script>
+                
+                <script src="js/jquery-1.11.3.js" type="text/javascript"></script>
+                <SCRIPT type="text/javascript">    
+                    history.pushState({ page: 1 }, "Title 1", "#no-back");
+                    window.onhashchange = function (event) {
+                    window.location.hash = "no-back";
+                        };
+                </SCRIPT> 
+                
+                
+                
+                
+	  
+	  
+              <!--footer script starts here-->   
+                <script>
+                    $(window).load(function(){
+                       
+                         var facid = $("#uid").val();
+                        
+                        $.post('PageContent', {
+                                      facid: facid
+                                  }, function (response) {
+//                                      $.each(response,function(index,value){
+//                                      alert(value);
+//                                      });
+                                           // alert(response[0]);
+                                           var foot="<br>"+response[0];
+                                           //alert(foot);
+                                        $('#foottext').html(foot);
+                                        $('#cname').html(response[1]);
+                                        //$('#cdesig').html(response[2]);
+                                        //$('#ceid').html(response[3]);
+                                        //$('#cpno').html(response[4]);
+                                  });
+                        
+                    });
+                    
+                    </script>
+<!--footer script ends here-->
+	  
+	  
+	  
+	  
+<!--footer CSS starts here-->   
+	  <style type="text/css">
+	  .panel-footer{
+                        position:fixed;
+                        top:95%;
+                        left:0px;
+                        right:0px;
+                        bottom:0px;
+                        height:50px;
+                        min-width:250px;
+                        background-color: #082E56;
+                        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+                        margin-top: 0px;
+                        /*padding-top: 60px*/
+                        }
+                        
+                       
+                        
+	  </style>
+<!--footer CSS ends here-->   
+                
+                
+                
+                <script type="text/javascript">
+
+	function checkBrowser() 
+	{ 
+		if (navigator.appVersion.indexOf("Chrome/index.html") != -1) {
+		//alert("Welcome");
+		}
+		else
+		{
+          	//alert("Please open in Chrome Browser only");
+                $('#username1').hide(); 
+                $('#username').hide(); 
+                $('#password').hide(); 
+                $('#password1').hide(); 
+                $('#button').hide(); 
+                $('#submit').hide();
+                 $('#message').show(); 
+                 $('#message1').hide();
+                  $('#signin').hide();
+                $('#form1').hide();
+        	}  
+	}
+        </script>
+                
+                
+                <script>
+                    $(document).ready(function()
+                    {
+                       
+                    $('#username1').balloon({ offsetX: -20, offsetY: -10 });
+                    }
+                </script>
+                                
+                
+                <script>
+                    
+                    
+                    $(document).ready(function()
+                    {
+                        //$('#msg').hide();
+                        
+                        
+                        
+                        
+                        
+                     
+                     $(function() {
+                                $("#username").focus();
+                                    });
+                     $('#message').hide(); 
+                     
+                     
+//                       $('#submit').click(function()
+//                       {
+//                        
+//                                           
+//                           var uname=$('#username').val();
+//                           var pwd=$('#password').val();
+//                             // alert("inside function"+ uname);
+//                             var len=uname.length;
+//                              //var sub=uname.substr(2,2);
+//                              //alert(sub);
+//                             if(len==10)
+//                             {
+//                                // alert("Student");
+//                                 $.get('validate', {
+//                                                   uname:uname,pwd:pwd
+//                                             }, function(response) {
+//                                                 alert(response);
+//                                                 var k=response[0].split(';');
+//                                                // alert(k[0]+"----"+k[1]);
+//                                                 if(k[0]=='1')
+//                                                 {
+//                                                     $('#info1').text("A Temporary password has been sent to your mail id '"+ k[1]+"'");
+//                                                     $('#info1').show();
+//                                                      $('#wait').hide(); 
+//                                                     //alert("1");
+//                                                 }
+//                                                 else
+//                                                     if(k[0]=='2')
+//                                                 {
+//                                                      $('#info1').text("No Email has been registered with this User Id");
+//                                                     $('#info1').show();
+//                                                      $('#wait').hide(); 
+//                                                     //alert("2");
+//                                                 }
+//                                                 else
+//                                                 {
+//                                                     $('#info1').text("Not a Valid User Id");
+//                                                     $('#info1').show();
+//                                                      $('#wait').hide(); 
+//                                                    // alert("3");
+//                                                 }
+//                                                // location.reload();
+//                                             });
+//                             }
+//                             else
+//                             {
+//                                 $.post('validate', {
+//                                                   uname:uname,pwd:pwd
+//                                             }, function(response) {
+//                                                 alert(response);
+//                                                 var k=response[0].split(';');
+//                                                 //alert(k[0]+"----"+k[1]);
+//                                                 if(k[0]=='1')
+//                                                 {
+//                                                     $('#info1').text("A Temporary password has been sent to your mail id '"+ uname+"'");
+//                                                     $('#info1').show();
+//                                                      $('#wait').hide(); 
+//                                                     //alert("1");
+//                                                 }
+//                                                 else
+//                                                     if(k[0]=='2')
+//                                                 {
+//                                                      $('#info1').text("Not a Valid User Id");
+//                                                     $('#info1').show();
+//                                                      $('#wait').hide(); 
+//                                                     //alert("2");
+//                                                 }
+//                                             }
+//                                         );
+//                                 
+//                                 
+//                                // alert("faculty");
+//                             }
+//                            
+//                            
+//                       });
+                       
+                        $('#resetpwd').click(function()
+                       {
+                          $('#info1').hide(); 
+                       $('#txt1').val("");
+                       });
+                       
+                        $('#msg').hide();
+                        
+                       $('#msg').text($('#hmsg').val());
+                       //alert($('#msg').html());
+                       if($('#msg').text()===null)
+                       {
+                          //alert("in if"+$('#msg').text().trim());
+                       $('#msg').hide(); 
+                       }
+                       else
+                       {
+                           //alert($('#msg').html()+"in else"+$('#msg').text().length);
+                           $('#msg').show();
+                       
+                        }
+                       $('#msg').fadeOut(10000);
+                   
+                    });
+                    
+                    
+                    
+                </script>
+  
+  
+  
+  
+  
+  <style type="text/css">
+html{   
+	/*background-image:  url(img/bgimage3.jpg);*/
+        /*background-image:  url(img/College.JPG);*/
+         background-repeat: no-repeat;
+	-webkit-background-size: cover;
+      
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image:  url(img/College2.jpg);
+     background-repeat: no-repeat;
+     -webkit-background-size: cover;
+}
+
+/* img {
+    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(100%);
+}*/
+
+.h1{
+    color: #154360;
+    font-size: 40px;
+    font-family: 'Bungee', cursive;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #FBFCFC, 0 0 30px #FBFCFC, 0 0 40px #FBFCFC, 0 0 55px #FBFCFC, 0 0 75px #FBFCFC, 0 0 95px #FBFCFC, 0 0 115px #FBFCFC, 0 0 135px #FBFCFC, 0 0 155px #FBFCFC;
+    
+}
+
+.h2{
+    color: #33b5e5;
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #FBFCFC, 0 0 30px #FBFCFC, 0 0 40px #FBFCFC, 0 0 55px #FBFCFC, 0 0 75px #FBFCFC, 0 0 95px #FBFCFC, 0 0 115px #FBFCFC, 0 0 135px #FBFCFC, 0 0 155px #FBFCFC;
+    
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bungee'), local('Bungee-Regular'), url(https://fonts.gstatic.com/s/bungee/v3/Qo62XTKf8oE8gIaZK99LEvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  /*unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;*/
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bungee'), local('Bungee-Regular'), url(https://fonts.gstatic.com/s/bungee/v3/Qsxm5yuwoKZ9H2cnA897TPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  /*unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;*/
+}
+/* latin */
+@font-face {
+  font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bungee'), local('Bungee-Regular'), url(https://fonts.gstatic.com/s/bungee/v3/86NbnFpNqZ2MU9Gl0ca2YQ.woff2) format('woff2');
+  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;*/
+}
+
+/*p:hover{
+     color: #AC1A49;
+     text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #F72A2A, 0 0 30px #F72A2A, 0 0 40px #F72A2A, 0 0 55px #F72A2A, 0 0 75px #F72A2A, 0 0 95px #F72A2A, 0 0 115px #F72A2A, 0 0 135px #F72A2A, 0 0 155px #000000;
+}*/
+
+p:hover{
+     color: #FBFCFC;
+     text-shadow: 0 0 5px #1B5778, 0 0 10px #1B5778, 0 0 15px #1B5778, 0 0 20px #1B5778, 0 0 30px #1B5778, 0 0 40px #1B5778, 0 0 55px #1B5778, 0 0 75px #1B5778, 0 0 95px #1B5778, 0 0 115px #1B5778, 0 0 135px #1B5778, 0 0 155px #1B5778;
+}
+
+
+
+</style>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</head>
+
+<!-- background="img/College2.jpg">-->
+<body oncontextmenu="return false;" width="100%" onload="checkBrowser()">
+ <center>
+        <img src="assets/banner.jpg" />
+      </center> 
+<!-- Form Mixin-->
+<!-- Input Mixin-->
+<!-- Button Mixin-->
+<!-- Pen Title-->
+<br>
+<center> <div><p class="h1">GVPCE(A)-
+            INFORMATION MANAGEMENT SYSTEM <br>
+        <div class="h2"> (G-IMS)</div>
+      
+          </p></div></center>
+<br>
+
+		   <input id="hmsg" type="hidden" value="">
+      <input type="hidden" id="uid" value=''/>
+  
+<div class="login" style="margin-top: 0px">
+<center>
+
+    <div id="message">
+    	<h1 style="font-size:40px;color:orange; width: 650px;background-color: white">Use Google Chrome Browser only</h1>
+        <br>
+        <img src="img/chromelogo.jpg" height="400px"/>
+    </div>
+<!--    <div id="message1">
+    	<h4>Sign in with your details</h4>
+    </div></center>-->
+		  
+		  
+<!-- Form Module-->
+<div id="form1" class="module form-module">
+  <div ><i></i>
+    
+  </div>
+  <div class="form">
+    <h2>Login to your account</h2>
+<!--    <form>
+      <input type="text" placeholder="Username"/>
+      <input type="password" placeholder="Password"/>
+      <button>Login</button>
+    </form>-->
+	
+<form method="post" action="http://125.62.214.206/validate"> 
+     <input type="text" size="20" id="username" name="username" placeholder="Username"/><br />   
+     <input type="password" size="20" id="password" name="pwd" placeholder="Password"/><br />
+    
+     <!--<input id="button" type="button" size="50" onclick="location.href='forgot.jsp';" value="Forgot Password" />-->
+     <!--<input id="submit" type="submit" value="Log In" />-->
+     <button id="submit" style="color:white;font-size:20px">Login</button>
+</form>
+	
+ <div>
+					
+                                        <div  id="msg" style="color: #a94442;background-color: #f2dede;  border-color: #ebccd1;"></div>
+    </div>
+  </div>
+<!--  <div class="form">
+    <h2>Create an account</h2>
+    <form>
+      <input type="text" placeholder="Username"/>
+      <input type="password" placeholder="Password"/>
+      <input type="email" placeholder="Email Address"/>
+      <input type="tel" placeholder="Phone Number"/>
+      <button>Register</button>
+    </form>
+  </div>-->
+<div class="cta" style="background-color:#33b5e5; "><a href="forgot.html" style="color:white;font-size:16px">Forgot your password?</a></div>
+</div>
+  <script src='../cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+</body>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<!--          footer code starts here   
+-->	<footer  class="page-footer blue center-on-small-only">
+   
+    <div id="wrapper" class="footer-copyright panel-footer">
+        <div class="container-fluid">
+            <center>  <font color="white"><div id="foottext">  </div></font></center>
+
+        </div>
+    </div>
+   
+
+	</footer>
+	<!--
+footer code ends here -->
+    </body>
+
+<!-- Mirrored from 125.62.214.206/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Nov 2022 13:28:35 GMT -->
+</html>
+	 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

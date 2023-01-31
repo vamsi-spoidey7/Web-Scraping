@@ -1,0 +1,73 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 21 Nov 2022 18:49:58 at https://gvpce.ac.in/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" -Y https://gvpce.ac.in/ -O1 "C:\Users\MY PC\OneDrive\Desktop\ScrapingProject\GVPCE\GVPCE" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:52:39	Error: 	"Connect Error" (-4) after 2 retries at link 123.108.200.173:8084/robots.txt (from https://gvpce.ac.in/)
+18:52:39	Warning: 	Retry after error -4 (Connect Error) at link 123.108.200.173:8084/Project/gvpcareer/application.jsp (from https://gvpce.ac.in/)
+19:01:23	Warning: 	See Other for 49.205.68.18/
+19:01:23	Warning: 	File has moved from 49.205.68.18/ to http://lms.gvpims.in
+19:01:51	Warning: 	Found for gvpce.almaconnect.com/robots.txt
+19:01:51	Warning: 	Redirected link is identical because of 'URL Hack' option: gvpce.almaconnect.com/robots.txt and https://gvpce.almaconnect.com/robots.txt
+19:01:51	Warning: 	Warning moved treated for gvpce.almaconnect.com/robots.txt (real one is https://gvpce.almaconnect.com/robots.txt)
+19:01:51	Warning: 	Found for gvpce.almaconnect.com/
+19:01:51	Warning: 	Redirected link is identical because of 'URL Hack' option: gvpce.almaconnect.com/ and https://gvpce.almaconnect.com/
+19:01:51	Warning: 	File has moved from gvpce.almaconnect.com/ to https://gvpce.almaconnect.com/
+19:02:10	Warning: 	Note: due to www.icredify.com remote robots.txt rules, links beginning with these path will be forbidden: /Admin/, /ev/ (see in the options to disable this)
+19:03:11	Error: 	"Not Found" (404) at link https://gvpce.ac.in/images/bg.gif (from https://gvpce.ac.in/images/stylegvp2.css)
+19:03:11	Error: 	"Not Found" (404) at link https://gvpce.ac.in/images/headerbg.gif (from https://gvpce.ac.in/images/stylegvp2.css)
+19:03:11	Error: 	"Not Found" (404) at link https://gvpce.ac.in/B.Tech/B.Tech%20Admissions/2022-2023/Click here to Apply (from https://gvpce.ac.in/B.Tech/B.Tech%20Admissions/2022-2023/)
+19:03:11	Warning: 	Retry after error -4 (Connect Error) at link 123.108.200.173:8084/Project/gvpcareer/application.jsp (from https://gvpce.ac.in/)
+19:03:34	Error: 	"Not Found" (404) at link https://gvpce.ac.in/8-sem-II-Phase-Notice (1).pdf (from https://gvpce.ac.in/examnotifications.html)
+19:03:42	Error: 	"Not Found" (404) at link jqueryjs.googlecode.com/files/jquery-1.2.6.min.js (from 125.62.214.206/)
+19:03:42	Error: 	"Not Found" (404) at link 125.62.214.206/Chrome/ (from 125.62.214.206/)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/bg.jpg (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/BTechISemJan2012/btechsearch.asp (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/BtechIIsemJune2011/btechsearch.asp (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/B.TechIIISemesterSupplementaryResults-June2011/B.TechIIISemesterSupplementaryResults-June2011.pdf (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/BtechIVsemJune2011/btechsearch.asp (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/btechisemjan2011/btechsearch.asp (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/btechiiisemdec2010/btechsearch.asp (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/mcajuly10/mcasearch.asp (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/btechjuly10/btechsearch.asp (from https://gvpce.ac.in/result.html)
+19:03:54	Error: 	"Not Found" (404) at link https://gvpce.ac.in/results/btechsearch.asp (from https://gvpce.ac.in/result.html)
+19:04:50	Error: 	"Not Found" (404) at link https://gvpce.ac.in/1Template_adplib.js (from https://gvpce.ac.in/contactus.html)
+19:04:50	Error: 	"Not Found" (404) at link https://gvpce.ac.in/1Template_ADPcontent.js (from https://gvpce.ac.in/contactus.html)
+19:04:50	Error: 	"Not Found" (404) at link https://gvpce.ac.in/1Template.js (from https://gvpce.ac.in/contactus.html)
+19:04:50	Error: 	"Not Found" (404) at link https://gvpce.ac.in/images/style1.css (from https://gvpce.ac.in/ibmcoe.html)
+19:04:50	Error: 	"Not Found" (404) at link https://gvpce.ac.in/location_map_pop.html (from https://gvpce.ac.in/ibmcoe.html)
+19:05:18	Error: 	"Connect Error" (-4) after 2 retries at link 123.108.200.173:8084/Project/gvpcareer/application.jsp (from https://gvpce.ac.in/)
+19:05:18	Error: 	"Not Found" (404) at link https://gvpce.ac.in/CFSR/aazadiamrit/images/GVPClg.jpg (from https://gvpce.ac.in/CFSR/aazadiamrit/css/ramsa.css)
+19:05:18	Error: 	"Not Found" (404) at link 125.62.214.206/fonts/fontawesome-webfont.eot?v=4.3.0 (from 125.62.214.206/css/font-awesome.min.css)
+19:05:18	Error: 	"Not Found" (404) at link 125.62.214.206/fonts/fontawesome-webfont.eot? (from 125.62.214.206/css/font-awesome.min.css)
+19:05:18	Error: 	"Not Found" (404) at link 125.62.214.206/fonts/fontawesome-webfont.woff2?v=4.3.0 (from 125.62.214.206/css/font-awesome.min.css)
+19:05:18	Error: 	"Not Found" (404) at link 125.62.214.206/fonts/fontawesome-webfont.woff?v=4.3.0 (from 125.62.214.206/css/font-awesome.min.css)
+19:05:18	Error: 	"Not Found" (404) at link 125.62.214.206/fonts/fontawesome-webfont.ttf?v=4.3.0 (from 125.62.214.206/css/font-awesome.min.css)
+19:05:18	Error: 	"Not Found" (404) at link 125.62.214.206/fonts/fontawesome-webfont.svg?v=4.3.0 (from 125.62.214.206/css/font-awesome.min.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/animated-overlay.gif (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-bg_flat_75_ffffff_40x100.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-bg_glass_75_e6e6e6_1x400.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-bg_glass_75_dadada_1x400.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-bg_glass_65_ffffff_1x400.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-bg_glass_55_fbf9ee_1x400.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-bg_glass_95_fef1ec_1x400.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-icons_222222_256x240.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-icons_888888_256x240.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-icons_454545_256x240.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-icons_2e83ff_256x240.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-icons_cd0a0a_256x240.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/images/ui-bg_flat_0_aaaaaa_40x100.png (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/jquery-ui.css)
+19:05:32	Error: 	"Not Found" (404) at link https://formbuilder.ccavenue.com/live/frontend/web/design_elements/images/calender-icon.jpg (from https://formbuilder.ccavenue.com/live/frontend/web/design_elements/css/docs.css)
+19:05:33	Error: 	"Not Found" (404) at link https://gvpce.ac.in/alumni/register.asp (from https://gvpce.ac.in/alumni/alumni_home.html)
+19:05:33	Error: 	"Not Found" (404) at link https://gvpce.ac.in/alumni/login.asp (from https://gvpce.ac.in/alumni/alumni_home.html)
+19:05:33	Warning: 	File not parsed, looks like binary: 125.62.214.206/fonts/glyphicons-halflings-regular.woff2
+19:05:33	Error: 	"Not Found" (404) at link 125.62.214.206/img/glyphicons-halflings.png (from 125.62.214.206/css/bootstrap-combined.min.css)
+19:05:33	Error: 	"Not Found" (404) at link 125.62.214.206/img/glyphicons-halflings-white.png (from 125.62.214.206/css/bootstrap-combined.min.css)
+19:05:33	Error: 	"Not Found" (404) at link https://gvpce.ac.in/alumni/img/bg.gif (from https://gvpce.ac.in/alumni/alumni1.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 15 minutes 35 seconds : 763 links scanned, 701 files written (153303021 bytes overall) [150583444 bytes received at 161051 bytes/sec], 3841544 bytes transferred using HTTP compression in 38 files, ratio 20%, 1.0 requests per connection
+(50 errors, 12 warnings, 0 messages)

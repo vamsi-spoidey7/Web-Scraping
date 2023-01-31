@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+125.62.214.206	TRUE	/	FALSE	1999999999	JSESSIONID	1E0851D053C45C7E6703DF4EF8782F06
+formbuilder.ccavenue.com	TRUE	/	FALSE	1999999999	advanced-frontend	3vsu3fotcugqt4ld83acctplbs
+formbuilder.ccavenue.com	TRUE	/	FALSE	1999999999	_csrf-frontend	a7c36fa6354a70ffbbb1550f1880ed209351cd948e55911c1910dae29309978da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CgsX0Gmgp5hhE-8fJU3Tf24cakzB2iSG%22%3B%7D
+formbuilder.ccavenue.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.icredify.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	vtooy01ucw4nxg1lokm0fhce
+www.icredify.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

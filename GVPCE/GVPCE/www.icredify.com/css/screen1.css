@@ -1,0 +1,221 @@
+.search1
+{
+    float:left;
+    border-bottom:1px solid #dadada;
+    border-left:1px solid #dadada;
+    border-top:1px solid #dadada;
+    background-color:white;
+    height:48px;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+    font-family:Arial;
+    font-size:12px;
+    color:#999999;
+    text-align:left;
+    width:18%;
+}
+.btnDiv
+{
+    float:left;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    background-color:white;
+    border-bottom:1px solid #dadada;
+    border-right:1px solid #dadada;
+    border-top:1px solid #dadada;
+    background-color:white;
+    height:48px;   
+}
+.cal
+{
+    margin-left:12px;
+    float:left;
+    height:48px;
+    font-family:Arial;
+    font-size:12px;
+    color:#999999;
+    width:8%;
+    border-bottom:1px solid #dadada;
+    border-left:1px solid #dadada;
+    border-top:1px solid #dadada;
+    background-color:white;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+    text-align:left;
+    
+}
+.tableHead
+{
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    color:#333333;
+    border-left: medium none !important;
+    border-right: medium none !important;
+}
+
+.placementTable .tableBody
+{
+    font-weight:100;
+    text-align:center;
+    border-bottom:none;
+   
+}
+
+.placementTable .tableBody1
+{
+    font-weight:100;
+    text-align:center;
+    border-bottom:none;
+   
+}
+
+.placementTable .tableHead
+{
+    text-align:center;
+}
+
+.placementTable
+{
+    border: medium none !important;
+}
+.tableBody1
+{
+    font-family:Arial;
+    font-size:12px;
+    border-left: medium none !important;
+    border-right: medium none !important;
+    
+    color:#333333;
+    /*padding: 3px !important;*/
+    vertical-align: middle !important;
+    background-color:#f3f3f3;
+}
+
+.tableBody
+{
+    font-family:Arial;
+    font-size:12px;
+    border-left: medium none !important;
+    border-right: medium none !important;
+    
+    color:#333333;
+    /*padding: 3px !important;*/
+    vertical-align: middle !important;
+}
+.tableBodySelected
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#333333;
+    background-color:aqua;
+}
+
+.UsersTableName
+{
+    width:200px;
+}
+
+.UsersCheckboxes
+{
+    width:50px;
+}
+
+.hor_align_centre
+{
+   text-align:center;
+}
+
+
+#HyperLink6
+{
+    background-color:#3498db;
+    border-radius:5px;
+}
+.highlight_row {
+    background-color: green;
+}
+.assignModalHeader
+{
+    height:30px;
+
+}
+
+#assignModalLogo
+{
+    dislplay:block;
+    float:left;
+    height:17px;
+    width:auto;
+}
+
+.assignModalTitle
+{
+    display:block;
+    font : large bold;
+    float:left;
+    margin-left:10px;
+}
+
+
+
+.ModalPopupBG
+{
+    background-color:white;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}
+.modalBackground 
+{
+    background-color:white;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}
+
+.assignModalContent
+{
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:10px;
+        
+}
+
+#import
+{
+    font-size:small;
+    float:right;
+    color:#1278ba;
+    vertical-align:top;
+}
+
+.assignModalContent p
+{
+    display:block;
+    width:100%;
+}
+
+.assignModalContent textarea
+{
+    min-width:100%;
+    margin-top:10px;
+    resize:none;
+    
+}
+
+.assignModalFooter
+{
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:10px;
+}
+
+.assignModalFooter
+{
+    margin-right:20px;
+}
+
+.ui-datepicker
+{
+    background-color:white !important;
+}

@@ -1,0 +1,69 @@
+﻿.applicationStatus
+{
+    margin-left:5%;
+    background-color:#9afe66;
+    width:40%;
+    float:left;
+    height:32px;
+    border-radius:5px;
+}
+.lblSortBy
+{
+    padding-top:5px;
+    float:left;
+}
+.imgStatus
+{
+    padding-left:8%;
+    padding-right:8%;
+    padding-top:8px;
+}
+.lblApplication
+{
+    margin-top:8px;
+}
+.div_3
+{
+    height:auto;
+    width:90%;
+    border-bottom:1px solid #dadada;
+}
+.contentHeader
+{
+    padding-top:20px;
+}
+.contentTitle
+{
+    color:#3498db;
+    font-family:Arial;
+    font-size:large;
+}
+.contentCompany
+{
+    color:#7f7f7f;
+    font-family:Arial;
+}
+.contentBody
+{
+    color:#7f7f7f;
+    padding-top:10px;
+    font-family:Arial;
+    width:75%;
+    text-align:justify;
+}
+.statusAge
+{
+    color:#cccedb;
+}
+.contentControls
+{
+    padding-bottom:15px;
+}
+
+
+#addedRemove2
+{
+    color:#dadada;
+    margin-left:6%;
+}
+

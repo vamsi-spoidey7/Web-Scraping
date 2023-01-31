@@ -1,0 +1,69 @@
+﻿.form_body {
+    width: 750px;
+}
+.form_header {
+    font-family: Arial;
+    font-size: large;
+    font-weight: bold;
+    height: 20px;
+    width: 220px;
+}
+.rule {
+    border-top: 2px solid #DDDDDD;
+    height: 20px;
+    margin-top: 13px;
+    width: 100%;
+}
+.form_content {
+    width: 350px;
+}
+.candidate_content {
+    width: 100%;
+}
+.tooltip
+ {
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    visibility: visible;
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: 0;
+    filter: alpha(opacity=0);
+ }
+        
+.tooltip.right {
+    margin-left: 3px;
+    padding: 0 5px;
+}
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+.popover-title {
+  margin: 0;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0;
+}
+.popover.right {
+  margin-left: 10px;
+}
